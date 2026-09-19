@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-cormorant: 'Cormorant Garamond', 'Book Antiqua', 'Palatino Linotype', serif;
+  }
+
+  body {
+    font-family: var(--font-cormorant);
+    background: radial-gradient(ellipse at 50% 0%, #1A112C 0%, #0D0914 55%, #050308 100%);
+    background-attachment: fixed;
+    color: #F0E6D2;
+    overflow-x: hidden;
+  }
+}
+
+.font-mystic {
+  font-family: var(--font-cinzel);
+}
+
+.font-serif-card {
+  font-family: var(--font-cormorant);
+}
+
+/* Custom scrollbar matching mystical dark gold theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 9, 20, 0.7);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 121, 76, 0.4);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.6);
+}

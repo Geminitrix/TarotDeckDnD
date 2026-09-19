@@ -1,0 +1,6 @@
+{
+  "name": "Tarot Deck D&D",
+  "description": "Gerenciador da classe customizada Cartomante para D&D 5e: gerencie o Grimório, a mão, o descarte e os descansos longos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
